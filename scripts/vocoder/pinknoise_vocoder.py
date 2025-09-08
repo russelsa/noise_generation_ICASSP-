@@ -143,7 +143,7 @@ def process_one_file(wav_file, input_dir, tg_dir, out_dir_pitch, out_dir_shaped,
 
 if __name__ == "__main__":
 
-    wav_file = "sample_data/clean_audio/1f7e582c-c6bc-46b6-b5a4-e5d78e8a46ac.wav"
+    wav_file = "sample_data/clean_audio/trimmed.wav"
 
     input_dir = "sample_data/clean_audio"
     tg_dir = "sample_data/clean_audio"

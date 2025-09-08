@@ -3,6 +3,12 @@
 _PROSODIC AND LEXICAL CUES IN TURN-TAKING WITH SELF-SUPERVISED SPEECH REPRESENTATIONS_
 Sam O’Connor Russell, Delphine Charuau and Naomi Harte
 
+### Sample data
+Sample utterances of each manipulation are provided in `sample_utterances` to listen to. Alternaitvely the below code can be run to generate these noises from a file, provided an utterance-aligned transcript in TextGrid format is available. We have provided a sample in `sample_data/clean_audio` that works with the below code.
+
+### requirements 
+`librosa, pyworld, faster-whisper`
+
 ### Overview
 
 Our paper involves the generation of described below for a sample session in `sample_data/clean_audio`
@@ -11,10 +17,15 @@ Our paper involves the generation of described below for a sample session in `sa
 To generate noise which follows the pitch and intensity of speech, run `scripts/vocoder/pinknoise_vocoder.py` and see outputs in `sample_data/prosodic_noise`. Additional noises follow pitch only (with intenstity flattened to the utterance mean), and intensity only (pitch flattened to the utterance mean). 
 
 2) **generation of prosodic manipulation**
+To generate speech which preserves lexical information whilst flattening prosody, run `scripts/vocoder/prosodic_manipulation.py` and see outputs in `prosodic_manipulation`. Both pitch and intensity are flattened, or just pitch / intensity. 
 
 3) running whisper 
 
 4) WER intellegibility proxy 
+run `scripts/WER_intellegibility/run_faster_whisper.py` to transcribe files and compute the WER relative to clean speech
+
+5) SNR adding 
+to add manipulations at various SNRs code is provided in our earlier work, see below. 
 
 To hear sample utterances `sample_data/sample_utterance`
 

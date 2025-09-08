@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 214
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Channel_0"
+		xmin = 0.0
+		xmax = 214
+		intervals: size = 8
+			intervals [1]:
+				xmin = 0.0
+				xmax = 3
+				text = ""
+			intervals [2]:
+				xmin = 3
+				xmax = 29
+				text = "I'm good, hold on, let me get my earbuds in too. Shoot. Sometimes I have trouble hearing, but this time I was like, I don't know if it's just going to echo or what. Can you hear me? Yeah, I can hear you good."
+			intervals [3]:
+				xmin = 29
+				xmax = 60
+				text = "it's good i'm actually surprised because i've tried to do this thing on prolific like twice now and the first time it wasn't functional like at all and even yesterday like we could kind of hear and see each other but there was a major delay but i used zoom i used zoom and skype and stuff a lot for work and i never had problems and so you're coming through like normal so i'm like oh this is good"
+			intervals [4]:
+				xmin = 60
+				xmax = 91
+				text = "Or Yeah"
+			intervals [5]:
+				xmin = 91
+				xmax = 122
+				text = "No, I know exactly. Yeah."
+			intervals [6]:
+				xmin = 122
+				xmax = 150
+				text = "Well, and I work from home like a hundred percent since 2016 and even probably five years before that like half the time and so like I was working from home even when I still like DSL which was definitely trying and So now like everybody else is kind of like getting on my level. So that's cool. But like it's hard but like I said, I've tried I mean I the last couple of"
+			intervals [7]:
+				xmin = 150
+				xmax = 186
+				text = "i've tried to do one of these like the last two days and both of them like all of us agreed one girl is a college student and the other one was a guy that also worked from home we're like i swear our my wi-fi is good everything always works it's just not working now so i think that was part of the study i don't know right"
+			intervals [8]:
+				xmin = 186
+				xmax = 214
+				text = "Right. Kind of, yeah, it kind of has slowed down because there's a lot more people like trying to jump onto like certain contracts that I have and stuff. And so there's not as much available work, but then also I'm trying to care for like"
+	item [2]:
+		class = "IntervalTier"
+		name = "Channel_1"
+		xmin = 0.0
+		xmax = 214
+		intervals: size = 8
+			intervals [1]:
+				xmin = 0.0
+				xmax = 2
+				text = ""
+			intervals [2]:
+				xmin = 2
+				xmax = 44
+				text = "Yeah, absolutely. Yes, I can. Can you hear me good? Perfect. How's your day been?"
+			intervals [3]:
+				xmin = 44
+				xmax = 74
+				text = "Really Nice yeah, I My husband uses zoom all the time. He's He's going to law school and he's online now. I almost never use it I work in a bank and so we're essential and we have been in person the whole time So I'm not like as used to it. I have some meetings on zoom, but I know a bit more than like"
+			intervals [4]:
+				xmin = 74
+				xmax = 93
+				text = "the people I work with and um we had our first uh meeting via zoom with a couple new people to it on this last week and oh my gosh the like troubleshooting um especially for some people who are you know like over a certain age um like"
+			intervals [5]:
+				xmin = 93
+				xmax = 120
+				text = "trying to get them on and then people kept dropping off and they're like we're getting this little it's like a little caution sign and it's like yeah are you know the internet connection is not good enough so it's gonna drop sometimes and yeah I think that that's been like one of the bigger challenges this year is like for technology for people who have not done video calls before"
+			intervals [6]:
+				xmin = 120
+				xmax = 166
+				text = "It's been a little bit painful Yeah That is nice"
+			intervals [7]:
+				xmin = 166
+				xmax = 203
+				text = "Yeah, it definitely could be like to see how people are interacting when there are issues Like I know that they measure like your positive and negative feelings Maybe they're trying to see if there are more negative feelings after if it was a particularly challenging technologically Conversation, but I don't know So you said you've been working from home for a long time so has the whole pandemic really changed things for you for work"
+			intervals [8]:
+				xmin = 203
+				xmax = 214
+				text = ""
